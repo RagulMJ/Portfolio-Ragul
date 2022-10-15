@@ -32,7 +32,7 @@ export const projectsData = [
     tags: ['React', 'NodeJS', 'Express', 'MongoDB'],
     code: 'https://github.com/RagulMJ/Netflix-clone',
     code_1: 'https://github.com/RagulMJ/Netflix-clone-backend',
-    demo: 'https://youtube-clone-rj.netlify.app/auth',
+    demo: 'https://youtube-clone-ragul.netlify.app/',
     image: netflix,
   },
   {

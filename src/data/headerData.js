@@ -8,5 +8,5 @@ export const headerData = {
   image: ragul,
   imagebw: '',
   resumePdf:
-    'https://drive.google.com/file/d/1KQ2pR9iIniNucYLSSa29Ozv1N-sfK688/view?usp=sharing',
+    'https://drive.google.com/file/d/1797LaaGhX6GWbRWK0Y7OCyn-sJ6YOjsZ/view?usp=sharing',
 };

@@ -52,6 +52,24 @@ function Projects() {
           <div className="projects--header">
             <h1 style={{ color: theme.primary }}>Projects</h1>
           </div>
+          <div className="projects--header_1">
+            <div>
+              <p style={{ fontSize: '1.25rem', color: '#e0d9d9' }}>
+                email:foo@gmail.com
+              </p>
+              <p style={{ fontSize: '1.25rem', color: '#e0d9d9' }}>
+                pass:123456
+              </p>
+            </div>
+            <div style={{ marginLeft: '1rem' }}>
+              <p style={{ fontSize: '1.25rem', color: '#e0d9d9' }}>
+                admin:admin@example.com
+              </p>
+              <p style={{ fontSize: '1.25rem', color: '#e0d9d9' }}>
+                pass:123456
+              </p>
+            </div>
+          </div>
           <div className="projects--body">
             <div className="projects--bodyContainer">
               {projectsData.slice(0, 4).map((project) => (
