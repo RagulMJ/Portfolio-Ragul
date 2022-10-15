@@ -9,7 +9,7 @@
 import yt from '../assets/svg/projects/yt-2.png';
 import netflix from '../assets/svg/projects/netflix.png';
 import store from '../assets/svg/projects/mern-store.png';
-import chat from '../assets/svg/projects/chat_app.png';
+import chat_app from '../assets/svg/projects/realtime_chat_app.png';
 import pathfinder from '../assets/svg/projects/pathfinder.png';
 
 export const projectsData = [
@@ -39,12 +39,12 @@ export const projectsData = [
     id: 3,
     projectName: 'Chat App',
     projectDesc:
-      'MERN stack website with users can chat and create groups with selected members.',
-    tags: ['React', 'CSS', 'NodeJS'],
-    code: 'https://github.com/RagulMJ/Chat_app',
-    code_1: 'https://github.com/RagulMJ/Chat_app_backend',
-    demo: 'https://chat-app-rj.netlify.app/',
-    image: chat,
+      'MERN stack website with users can chat in realtime and chat in groups',
+    tags: ['React', 'Socket.io', 'NodeJS'],
+    code: 'https://github.com/RagulMJ/Realtime_ChatApp',
+    code_1: 'https://github.com/RagulMJ/Realtime_ChatApp_Backend',
+    demo: 'https://realtime-chat-app-rj.netlify.app/',
+    image: chat_app,
   },
   {
     id: 4,
