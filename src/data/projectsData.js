@@ -11,6 +11,7 @@ import netflix from '../assets/svg/projects/netflix.png';
 import store from '../assets/svg/projects/mern-store.png';
 import chat_app from '../assets/svg/projects/realtime_chat_app.png';
 import pathfinder from '../assets/svg/projects/pathfinder.png';
+import pizza from '../assets/svg/projects/pizza.png';
 
 export const projectsData = [
   {
@@ -18,7 +19,7 @@ export const projectsData = [
     projectName: 'Youtube Clone',
     projectDesc:
       'Responsive MERN Stack project with firebase authentication.a website to view youtube content',
-    tags: ['React', 'SAAS', 'React Bootstrap'],
+    tags: ['React', 'SAAS', 'React Bootstrap', 'NodeJS', 'MongoDB'],
     code: 'https://github.com/RagulMJ/Youtube-clone',
     code_1: 'https://github.com/RagulMJ/Youtube-clone-backend',
     demo: 'https://youtube-clone-rj.netlify.app/auth',
@@ -50,7 +51,7 @@ export const projectsData = [
     id: 4,
     projectName: 'E-Commerce Store',
     projectDesc:
-      'Responsive MERN Stack project with jwt authentication with Paypal payment. Customers can buy products listed in site.',
+      'Responsive MERN Stack project with jwt authentication with Paypal payment. Customers can buy products listed in site.Added admin control and CRUD operations on products.',
     tags: ['React', 'NodeJS', 'MongoDB'],
     code: 'https://github.com/RagulMJ/e-commerce_frontend',
     code_1: 'https://github.com/RagulMJ/e-commerce_backend',
@@ -59,6 +60,17 @@ export const projectsData = [
   },
   {
     id: 5,
+    projectName: 'Pizza-delivery',
+    projectDesc:
+      'Responsive MERN Stack project with jwt authentication with Stripe payment. Customers can buy products listed in site.Added admin control and CRUD operations on products.',
+    tags: ['React', 'NodeJS', 'MongoDB'],
+    code: 'https://github.com/RagulMJ/Pizza_Delivery_App',
+    code_1: 'https://github.com/RagulMJ/Pizza_Delivery_App_Backend',
+    demo: 'https://pathfinder-rj.netlify.app/',
+    image: pizza,
+  },
+  {
+    id: 6,
     projectName: 'Pathfinder',
     projectDesc: 'A Pathfinding visualizer algorithms  ',
     tags: ['React', 'Bootstrap'],
