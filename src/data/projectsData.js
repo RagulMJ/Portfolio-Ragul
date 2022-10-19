@@ -26,7 +26,7 @@ export const projectsData = [
     image: yt,
   },
   {
-    id: 2,
+    id: 5,
     projectName: 'Netflix Clone',
     projectDesc:
       'MERN Stack project where users can see the movie lists and add it to my list.',
@@ -59,7 +59,7 @@ export const projectsData = [
     image: store,
   },
   {
-    id: 5,
+    id: 2,
     projectName: 'Pizza-delivery',
     projectDesc:
       'Responsive MERN Stack project with jwt authentication with Stripe payment. Customers can buy products listed in site.Added admin control and CRUD operations on products.',
