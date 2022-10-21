@@ -55,18 +55,18 @@ function Projects() {
           <div className="projects--header_1">
             <div>
               <p style={{ fontSize: '1.25rem', color: '#e0d9d9' }}>
-                email:foo@gmail.com
+                Email:foo@gmail.com
               </p>
               <p style={{ fontSize: '1.25rem', color: '#e0d9d9' }}>
-                pass:123456
+                Password:123456
               </p>
             </div>
             <div style={{ marginLeft: '1rem' }}>
               <p style={{ fontSize: '1.25rem', color: '#e0d9d9' }}>
-                admin:admin@example.com
+                Admin:admin@example.com
               </p>
               <p style={{ fontSize: '1.25rem', color: '#e0d9d9' }}>
-                pass:123456
+                Password:123456
               </p>
             </div>
           </div>
