@@ -16,14 +16,14 @@ import pizza from '../assets/svg/projects/pizza.png';
 export const projectsData = [
   {
     id: 1,
-    projectName: 'Youtube Clone',
+    projectName: 'E-Commerce Store',
     projectDesc:
-      'Responsive MERN Stack project with firebase authentication.a website to view youtube content',
-    tags: ['React', 'SAAS', 'React Bootstrap', 'NodeJS', 'MongoDB'],
-    code: 'https://github.com/RagulMJ/Youtube-clone',
-    code_1: 'https://github.com/RagulMJ/Youtube-clone-backend',
-    demo: 'https://youtube-clone-rj.netlify.app/auth',
-    image: yt,
+      'Responsive MERN Stack project with jwt authentication with Paypal payment. Customers can buy products listed in site.Added admin control and CRUD operations on products.',
+    tags: ['React', 'NodeJS', 'MongoDB'],
+    code: 'https://github.com/RagulMJ/e-commerce_frontend',
+    code_1: 'https://github.com/RagulMJ/e-commerce_backend',
+    demo: 'https://mern-store-rj.netlify.app/',
+    image: store,
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ export const projectsData = [
     tags: ['React', 'NodeJS', 'MongoDB'],
     code: 'https://github.com/RagulMJ/Pizza_Delivery_App',
     code_1: 'https://github.com/RagulMJ/Pizza_Delivery_App_Backend',
-    demo: 'https://pathfinder-rj.netlify.app/',
+    demo: 'https://pizza-delivery-rj.netlify.app/',
     image: pizza,
   },
   {
@@ -49,17 +49,6 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: 'E-Commerce Store',
-    projectDesc:
-      'Responsive MERN Stack project with jwt authentication with Paypal payment. Customers can buy products listed in site.Added admin control and CRUD operations on products.',
-    tags: ['React', 'NodeJS', 'MongoDB'],
-    code: 'https://github.com/RagulMJ/e-commerce_frontend',
-    code_1: 'https://github.com/RagulMJ/e-commerce_backend',
-    demo: 'https://mern-store-rj.netlify.app/',
-    image: store,
-  },
-  {
-    id: 5,
     projectName: 'Netflix Clone',
     projectDesc:
       'MERN Stack project where users can see the movie lists and add it to my list.',
@@ -68,6 +57,17 @@ export const projectsData = [
     code_1: 'https://github.com/RagulMJ/Netflix-clone-backend',
     demo: 'https://netlify-rj.netlify.app/',
     image: netflix,
+  },
+  {
+    id: 5,
+    projectName: 'Youtube Clone',
+    projectDesc:
+      'Responsive MERN Stack project with firebase authentication.a website to view youtube content',
+    tags: ['React', 'SAAS', 'React Bootstrap', 'NodeJS', 'MongoDB'],
+    code: 'https://github.com/RagulMJ/Youtube-clone',
+    code_1: 'https://github.com/RagulMJ/Youtube-clone-backend',
+    demo: 'https://youtube-clone-rj-ragul.netlify.app/auth',
+    image: yt,
   },
   {
     id: 6,
